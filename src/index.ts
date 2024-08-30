@@ -1,5 +1,6 @@
-import { Replicate } from "./replicate";
+import { Replicate } from "./client/replicate";
 
+export { Replicate };
 export default Replicate;
 
-export * from "./replicate";
+export * from "./enums";

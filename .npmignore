@@ -1,3 +1,6 @@
 node_modules/
+src/
+
 package-lock.json
-test/
+tsconfig.json
+tsup.config.ts

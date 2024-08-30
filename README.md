@@ -76,7 +76,7 @@ replicate
 
 ## 💬 Support
 
-For support or questions, please open an [issue]() on GitHub.
+For support or questions, please open an [issue](https://github.com/JustSkyDev/Free-ReplicateAI/issues) on GitHub.
 
 ## 📝 License
 
