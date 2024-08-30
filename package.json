@@ -1,0 +1,28 @@
+{
+  "name": "@justskydev/replicateai",
+  "version": "1.0.0",
+  "description": "A Node.js package that integrates Replicate AI for free.",
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/cjs/src/index.js",
+  "exports": {
+    "import": "./dist/esm/src/index.js",
+    "require": "./dist/cjs/src/index.js",
+    "default": "./dist/esm/src/index.js",
+    "node": {
+      "import": "./dist/esm/src/index.js",
+      "require": "./dist/cjs/src/index.js"
+    }
+  },
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.esm.json && tsc --project tsconfig.cjs.json",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "typescript": "^5.5.4"
+  }
+}
