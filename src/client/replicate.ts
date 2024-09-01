@@ -124,8 +124,7 @@ export class Replicate {
     model: string;
     output: string[];
     metrics: {
-      image_count: number;
-      predict_time: number;
+      [key: string]: string | number;
     };
   }> {
     const request = await fetch(
