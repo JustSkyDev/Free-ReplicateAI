@@ -147,7 +147,7 @@ export class Replicate {
       started_at: response.started_at,
       completed_at: response.completed_at,
       model: response.model,
-      output: response.output[0],
+      output: response.output,
       metrics: response.metrics,
     };
   }
