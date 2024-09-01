@@ -122,7 +122,7 @@ export class Replicate {
     started_at: string;
     completed_at: string;
     model: string;
-    output: string;
+    output: string[];
     metrics: {
       image_count: number;
       predict_time: number;
